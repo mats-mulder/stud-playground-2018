@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: myriad;
+    src: url(elements/fonts/haha.otf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: futuraorto;
+    src: url(elements//fonts/Myriad.ttf);
+}
+
+body{
+	background: linear-gradient(to right, #ee422e , #ec69a4);
+
+	
+}
+
+button{
+	background-color: rgba(0,0,0,0);
+	border-width: 0px;
+	padding: 0px;
+}
+
+button:focus{
+	background-color: rgba(0,0,0,0);
+	border-width: 0px;
+}
+
+#mobilenav{
+	position: fixed;
+	height: 100vh;
+	width:100vw;
+	background: linear-gradient(to right, #ee422e , #ec69a4);
+	z-index: 600;
+	visibility: hidden;
+}
+
+.wimps{
+	width: 100%;
+	
+	margin-bottom: 8vh;
+}
+
+#mobilenavbutton{
+	position: fixed;
+	z-index: 700;
+}
+
+#navbutton{
+	position: fixed;
+}
+
+#closebutton{
+	position: fixed;
+	visibility: hidden;
+}
+
+.section{
+	padding-top: 5vh;
+	padding-bottom: 10vh;
+}
+
+
+#section03{
+	padding-bottom: 5vh;
+}
+
+.navfont{
+	margin-top: 5vh;
+	font-family: myriad;
+	color: white;
+	font-size: 8vh;
+	line-height: 150%;
+}
+
+.kop1{
+	font-family: myriad;
+	font-size: 12vh;
+	margin-bottom: 0;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.kop2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	color: white;
+	margin: 0px;
+	line-height: 90%;
+	margin-bottom: 2vh;
+}
+
+.kop3{
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	margin: 0px;
+	color: white;
+	line-height: 80%;
+
+}
+
+.text1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2vh;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+
+.text2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	color: white;
+	margin-top: 50px;
+}
+
+h1{
+	font-family: myriad;
+	color: white;
+	font-size: 10vw;
+	margin: 0px;
+}
+
+h2{
+	font-family: myriad;
+	color: white;
+	font-size: 6vw;
+	color: white;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.timetext {
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.8vh;
+	line-height: 425%;
+}
+
+.settime{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.8em;
+	margin: 0px;
+}
+
+.navfont > span{
+	margin-left: 3.1vw;
+	margin-right: 3.1vw;
+}
+
+
+
+#logo{
+	width: 50em;
+	padding: 2em;
+	margin-top: 5em;
+}
+
+
+#iconfacebook{
+	position: absolute;
+	width: 11vh;
+	height: 10.85vh;
+	bottom: 0px;
+	margin: 5vh;
+	background-image: url(elements/facebook.png);
+	background-size: cover;
+
+}
+
+
+
+.padartist{
+	padding: 5px;
+}
+
+#section1 .row .col{
+	padding: 0px;
+}
+
+.artistholder{
+	background-image: url(elements/artists/0.png);
+	background-size: cover;
+	height: 40vh;
+	margin-bottom: 25px;
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+	margin: 10px;
+}
+
+.artistvis{
+	position: absolute;
+	z-index: 500;
+	margin: 15px;
+	font-family: Myriad;
+	font-size: 4vh;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.artistinfobox{
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	box-shadow: none;
+	padding-top: 10%;
+
+}
+
+.artistinfobox:hover{
+	opacity: 10;
+
+}
+
+
+
+
+   .buttonblack{
+   	background-color: #000;
+	padding:1em;
+   }
+
+.collapsible{
+	box-shadow: none;
+	border:0px;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	
+}
+
+   #map{
+   	border-style: solid;
+   	border-width: 5px;
+   	border-color: #000;
+   	margin-top: 5vh;
+   }
+
+   .collapsible-header{
+   	box-shadow: none;
+   	font-family: 'Amatic SC', cursive;
+   	color: white;
+   	text-decoration: underline;
+	font-size: 2.3em;
+	height: 10%;
+	border-bottom: 0px solid black;
+	background-color: rgba(0,0,0,0);
+	line-height: 120%;
+
+   }
+
+
+   .collapsible-body{
+   	border-bottom: 0px;
+   	font-family: 'Amatic SC', cursive;
+   	color: white;
+   	font-size: 2em;
+   }
+
+
+   .infoicon{
+   	font-size: 4vh;
+   }
+
+
+.container .row{
+	margin-left: 0px;
+}
+
+.timeslot{
+	
+	border-style: solid;
+	border-width: 10px;
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.modalartist{
+	border-radius: 0px;
+	background-color: rgba(255,255,255,0);
+	box-shadow: none;
+}
+
+#technomargin{
+	margin-top: 50px
+}
+
+#housemargin{
+	margin-top: 140px;
+}
+
+a{
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: white;
+}
+
+.eyeframe{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 5vh;
+}
+
+
+.brow1{
+	width: 80vh;
+}
+
+.eyecent{
+	width: 80vh;
+	margin-top: -5vh;
+}
+
+.brow2{
+	width: 80vh;
+	bottom: 0;
+	margin-top: -5vh;
+	
+}
+
+
+.intro{
+	width: 150vw;
+	margin: 0px;
+	padding:0px;
+	margin-top: -25vw;
+	transition-duration: 2s;
+}
+
+
+
+@media screen and (max-width: 500px) {
+   #technomargin{
+   	margin-top: 0px;
+   }
+   #housemargin{
+   	margin-top: 0px;
+   }
+
+   .brow1{
+   	width: 80%;
+   }
+
+   .brow2{
+   	width: 80%;
+   }
+
+   .eyecent{
+   	width: 80%;
+   }
+   .eyeframe{
+   	padding-top: 15vh;
+   }
+
+   h1{
+   	font-size: 14vw;
+   }
+
+   .navfont{
+   	font-size: 5vh;
+   	line-height: 200%;
+   }
+
+   .kop1{
+   	font-size: 10vh;
+   }
+   .eyeframe{
+   	margin-left: 2vw;
+   }
+
+   .stage{
+   	margin-top: 10vh;
+   }
+
+   .map{
+   	
+   }
+
+}
+
